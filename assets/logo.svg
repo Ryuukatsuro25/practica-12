@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" fill="none">
+  <rect x="1" y="1" width="54" height="54" rx="14" fill="#0EA5E9" stroke="#1F2937" stroke-width="2"/>
+  <path d="M17 34c3-8 9-12 18-12 7 0 13 3 18 9" stroke="#0F172A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 23c2-4 6-6 11-6 4 0 8 2 11 5" stroke="#0F172A" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="21" cy="38" r="3" fill="#22C55E"/>
+  <text x="72" y="26" font-family="Poppins, Arial" font-size="20" font-weight="700" fill="#0F172A">Marketplace</text>
+  <text x="72" y="44" font-family="Inter, Arial" font-size="12" font-weight="500" fill="#64748B">Multirrol · Gestión centralizada</text>
+</svg>

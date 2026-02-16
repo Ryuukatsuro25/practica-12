@@ -1,0 +1,160 @@
+{
+  "presentacion_debe_contener": [
+    "Logo",
+    "Paleta de colores definida",
+    "2 fuentes tipográficas",
+    "4 íconos/vectores/ilustraciones personalizadas del negocio",
+    "4 productos",
+    "Tema de la tienda",
+    "2 páginas web de referencias"
+  ],
+  "paleta_colores": {
+    "nombre": "Cuentica Marketplace",
+    "primario": "#1F2937",
+    "secundario": "#0EA5E9",
+    "acento": "#22C55E",
+    "fondo": "#F8FAFC",
+    "superficie": "#FFFFFF",
+    "texto": "#0F172A",
+    "muted": "#64748B",
+    "borde": "#E2E8F0"
+  },
+  "tipografias": [
+    {
+      "nombre": "Inter",
+      "uso": "UI / texto general"
+    },
+    {
+      "nombre": "Poppins",
+      "uso": "títulos / branding"
+    }
+  ],
+  "tema_tienda": {
+    "estilo": "Minimalista moderno",
+    "sensacion": [
+      "Ordenado",
+      "Claro",
+      "Confiable",
+      "Tecnológico"
+    ],
+    "componentes": [
+      "Cards",
+      "Badges",
+      "Tabs",
+      "Tabla de permisos",
+      "Grid de productos"
+    ],
+    "accessibilidad": [
+      "Buen contraste",
+      "Tamaños legibles",
+      "Espaciado consistente"
+    ]
+  },
+  "productos_demo": [
+    {
+      "nombre": "Kit de Envío Express",
+      "precio": 49.99,
+      "tienda": "LogiPro",
+      "descripcion": "Empaque seguro y guía de envío para despachos rápidos.",
+      "tags": [
+        "Envíos",
+        "Logística",
+        "Popular"
+      ]
+    },
+    {
+      "nombre": "Plantilla de Catálogo Premium",
+      "precio": 19.0,
+      "tienda": "DesignHub",
+      "descripcion": "Plantilla editable para publicar productos con estilo.",
+      "tags": [
+        "Diseño",
+        "Catálogo",
+        "Digital"
+      ]
+    },
+    {
+      "nombre": "Suscripción Atención 24/7",
+      "precio": 29.9,
+      "tienda": "SupportNow",
+      "descripcion": "Soporte para tiendas con respuesta prioritaria.",
+      "tags": [
+        "Soporte",
+        "Suscripción",
+        "Pro"
+      ]
+    },
+    {
+      "nombre": "Pack Fotos de Producto",
+      "precio": 75.0,
+      "tienda": "StudioPix",
+      "descripcion": "20 fotos optimizadas para e-commerce (fondo limpio).",
+      "tags": [
+        "Fotografía",
+        "E-commerce",
+        "Mejora ventas"
+      ]
+    }
+  ],
+  "referencias_web": [
+    {
+      "nombre": "Shopify",
+      "url": "https://www.shopify.com/"
+    },
+    {
+      "nombre": "Stripe",
+      "url": "https://stripe.com/"
+    }
+  ],
+  "descripcion_plataforma": {
+    "titulo": "Marketplace Multirrol con Gestión Centralizada",
+    "resumen": "Ecosistema digital de comercio electrónico que conecta administradores, tiendas y clientes con permisos diferenciados.",
+    "perfiles": [
+      {
+        "perfil": "Administrador",
+        "descripcion": "Control total de la plataforma.",
+        "capacidades": [
+          "Gestionar usuarios (crear/modificar/eliminar/visualizar)",
+          "Supervisar tiendas (editar información, productos y precios)",
+          "Moderar contenido (calificaciones, comentarios y respuestas)",
+          "Configuración global (estructura, políticas, aspectos técnicos y de negocio)"
+        ]
+      },
+      {
+        "perfil": "Tienda",
+        "descripcion": "Gestión autónoma de su propio espacio comercial.",
+        "capacidades": [
+          "Personalización del escaparate (catálogo, precios, eliminación de artículos)",
+          "Interacción con clientes (ver y responder reseñas 1–5 estrellas)",
+          "Privacidad de datos (solo su información, sin acceso a otras tiendas/clientes)"
+        ]
+      },
+      {
+        "perfil": "Cliente",
+        "descripcion": "Experiencia de compra completa y participativa.",
+        "capacidades": [
+          "Carrito universal con productos de múltiples tiendas (requiere registro)",
+          "Interacción post-compra (calificar 1–5 estrellas y comentar)",
+          "Seguimiento y perfil (historial, datos personales, ver respuestas)"
+        ]
+      },
+      {
+        "perfil": "Visitante",
+        "descripcion": "Modo exploración.",
+        "capacidades": [
+          "Navegar productos y tiendas",
+          "No puede agregar al carrito, comprar ni dejar reseñas sin registrarse"
+        ]
+      }
+    ],
+    "registro_tiendas": {
+      "nota": "Proceso para garantizar calidad y veracidad de vendedores.",
+      "pasos_sugeridos": [
+        "Envío de documentación legal",
+        "Validación por parte del administrador",
+        "Aceptación de términos y condiciones",
+        "Activación de la tienda en la plataforma"
+      ]
+    }
+  }
+}

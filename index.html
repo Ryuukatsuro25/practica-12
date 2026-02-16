@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presentación · Marketplace Multirrol</title>
+
+  <!-- 2 fuentes tipográficas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="brand">
+        <!-- Logo -->
+        <img src="./assets/logo.svg" alt="Logo Marketplace" />
+      </div>
+      <div class="actions">
+        <button class="button primary" id="btnExport">Exportar JSON</button>
+        <button class="button" id="btnView">Ver JSON</button>
+        <button class="button" id="btnReset">Limpiar cache</button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="badge">Tema: Minimalista moderno</div>
+        <h1 class="h1" id="title">Marketplace Multirrol</h1>
+        <p class="lead" id="summary"></p>
+
+        <div class="section-title">
+          <h2>Qué debe contener</h2>
+          <span class="badge">Checklist</span>
+        </div>
+        <ul id="reqs" style="margin:0; padding-left:18px"></ul>
+
+        <div class="section-title">
+          <h2>Perfiles y permisos</h2>
+          <span class="badge">Tabla resumen</span>
+        </div>
+        <table class="table" aria-label="Tabla de perfiles">
+          <thead>
+            <tr><th>Perfil</th><th>Capacidades</th></tr>
+          </thead>
+          <tbody id="rolesBody"></tbody>
+        </table>
+
+        <div class="section-title">
+          <h2>Registro para tiendas</h2>
+          <span class="badge">Proceso sugerido</span>
+        </div>
+        <ul id="storeSteps" style="margin:0; padding-left:18px"></ul>
+
+        <div class="footer">
+          <div>Guardado en cache con la clave: <code class="inline" id="storageKey"></code></div>
+          <div>Tip: abre <code class="inline">index.html</code> en tu navegador.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">
+          <h2>Paleta de colores</h2>
+          <span class="badge">Definida</span>
+        </div>
+        <div class="palette" id="palette"></div>
+
+        <div class="section-title">
+          <h2>Tipografías</h2>
+          <span class="badge">2 fuentes</span>
+        </div>
+        <div id="fonts" style="display:grid; gap:10px"></div>
+
+        <div class="section-title">
+          <h2>Íconos (4)</h2>
+          <span class="badge">SVG</span>
+        </div>
+        <div class="icons" id="icons"></div>
+
+        <div class="section-title">
+          <h2>Productos (4)</h2>
+          <span class="badge">Cards</span>
+        </div>
+        <div class="products" id="products"></div>
+
+        <div class="section-title">
+          <h2>Referencias</h2>
+          <span class="badge">2 webs</span>
+        </div>
+        <div id="refs" style="display:grid; gap:10px"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" style="
+    position:fixed; left:50%; bottom:18px; transform:translateX(-50%);
+    background:rgba(15,23,42,.92); color:#fff; padding:10px 14px; border-radius:999px;
+    font-family:Inter, system-ui, sans-serif; font-weight:700; font-size:12px;
+    opacity:0; transition:opacity .2s ease; pointer-events:none;
+  "></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
