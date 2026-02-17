@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RappiWAO — Marketplace Multirrol (Demo localStorage)</title>
+  <meta name="description" content="RappiWAO — Marketplace multirrol (Administrador / Tienda / Cliente / Visitante) con almacenamiento local en el navegador (JSON en localStorage)." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <a href="#/" class="brand__link" aria-label="Ir al inicio">
+          <span class="brand__logo">🛵</span>
+          <span class="brand__name">RappiWAO</span>
+          <span class="brand__badge">Demo</span>
+        </a>
+      </div>
+
+      <nav class="nav" aria-label="Navegación principal" id="nav"></nav>
+    </div>
+  </header>
+
+  <main class="container" id="main" tabindex="-1">
+    <div id="app" class="app"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <strong>RappiWAO</strong> · Marketplace Multirrol (HTML/CSS/JS) · Datos en <code>localStorage</code>.
+      </div>
+      <div class="footer__right">
+        <button class="btn btn--ghost" data-action="export-db" title="Descargar la base de datos (JSON)">Exportar DB</button>
+        <label class="btn btn--ghost file-btn" title="Cargar una base de datos (JSON)">
+          Importar DB
+          <input type="file" accept="application/json" data-action="import-db" />
+        </label>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-area" id="toast-area" aria-live="polite" aria-atomic="true"></div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
