@@ -1,0 +1,5 @@
+/* Estilos básicos */
+body { background: #f7f8fb; }
+.navbar-brand { font-weight: 700; }
+.card-restaurant img { max-height: 120px; object-fit: contain; }
+.badge-role { text-transform: uppercase; letter-spacing: .05em; }
